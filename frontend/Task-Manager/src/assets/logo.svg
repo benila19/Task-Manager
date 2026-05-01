@@ -1,0 +1,15 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#E0F2FE" stroke="#0891B2" stroke-width="2"/>
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- TTM Text -->
+  <text x="100" y="110" font-family="Poppins, sans-serif" font-size="72" font-weight="700" text-anchor="middle" fill="url(#logoGradient)">TTM</text>
+  <!-- Subtitle Arc -->
+  <path d="M 60 140 Q 100 150 140 140" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.5"/>
+</svg>

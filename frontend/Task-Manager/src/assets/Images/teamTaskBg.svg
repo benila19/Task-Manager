@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#0891B2;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0E7490;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="bgGradient2" cx="80%" cy="20%">
+      <stop offset="0%" style="stop-color:#155E75;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0E7490;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main gradient background -->
+  <rect width="800" height="1000" fill="url(#bgGradient1)"/>
+  
+  <!-- Radial overlay for depth -->
+  <rect width="800" height="1000" fill="url(#bgGradient2)"/>
+  
+  <!-- Animated circles for visual interest -->
+  <circle cx="850" cy="-100" r="300" fill="#06B6D4" opacity="0.1"/>
+  <circle cx="700" cy="900" r="250" fill="#0E7490" opacity="0.15"/>
+  <circle cx="100" cy="500" r="200" fill="#14B8A6" opacity="0.1"/>
+  
+  <!-- Decorative shapes -->
+  <path d="M 0 200 Q 200 250 400 200 T 800 200" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.1"/>
+  <path d="M 0 600 Q 200 650 400 600 T 800 600" stroke="#ffffff" stroke-width="1" fill="none" opacity="0.08"/>
+</svg>
