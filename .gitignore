@@ -38,3 +38,8 @@ backend/uploads/*
 # Config
 package-lock.json
 yarn.lock
+
+# Project files to exclude
+profile\ pics/
+Project-Layout/
+Project-ScreenShots/
